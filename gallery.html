@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Gallery | Custom Homes & Renovations | Menabuild</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <style>
+    .gallery-filters { display:flex; gap:8px; justify-content:center; margin-bottom:48px; flex-wrap:wrap; }
+    .filter-btn { padding:8px 20px; font-size:12px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; border:1px solid var(--light-gray); background:transparent; color:var(--navy); cursor:pointer; transition:var(--transition); }
+    .filter-btn.active, .filter-btn:hover { background:var(--navy); color:var(--white); border-color:var(--navy); }
+  </style>
+</head>
+<body>
+  <nav class="nav nav--scrolled" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo"><img src="images/logo.png" alt="Menabuild" /></a>
+      <button class="nav__burger" id="burger"><span></span><span></span><span></span></button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li><li><a href="renovation.html">Renovation</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li><li><a href="reviews.html">Reviews</a></li>
+        <li><a href="contact.html" class="nav__cta">Get a Quote</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow page-hero__eyebrow">Our Work</span>
+      <h1 class="page-hero__title">Built with Pride,<span>Designed to Last</span></h1>
+      <p class="page-hero__sub">Browse a selection of our custom homes and renovation projects across South Florida. Every project tells a story of craftsmanship and a homeowner's vision brought to life.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="gallery-filters">
+        <button class="filter-btn active">All Projects</button>
+        <button class="filter-btn">Custom Homes</button>
+        <button class="filter-btn">Renovations</button>
+        <button class="filter-btn">Kitchens</button>
+        <button class="filter-btn">Bathrooms</button>
+        <button class="filter-btn">Additions</button>
+      </div>
+      <!-- REPLACE: Swap img-placeholder divs with your actual <img> tags -->
+      <!-- To add a real photo: <img src="images/your-photo.jpg" alt="Description" /> -->
+      <div class="gallery-grid">
+        <div class="gallery-grid__item gallery-grid__item--wide img-placeholder"><span>Custom Home — Add Photo</span></div>
+        <div class="gallery-grid__item img-placeholder"><span>Bathroom — Add Photo</span></div>
+        <div class="gallery-grid__item img-placeholder"><span>Kitchen — Add Photo</span></div>
+        <div class="gallery-grid__item img-placeholder"><span>Renovation — Add Photo</span></div>
+        <div class="gallery-grid__item gallery-grid__item--wide img-placeholder"><span>Custom Home Exterior — Add Photo</span></div>
+        <div class="gallery-grid__item img-placeholder"><span>Addition — Add Photo</span></div>
+        <div class="gallery-grid__item img-placeholder"><span>Kitchen Detail — Add Photo</span></div>
+        <div class="gallery-grid__item img-placeholder"><span>Living Room — Add Photo</span></div>
+        <div class="gallery-grid__item img-placeholder"><span>Master Bath — Add Photo</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <div class="cta-band__inner">
+        <div class="cta-band__text"><h2>Like What You See?</h2><p>Let's talk about your project. Contact us for a free consultation and quote.</p></div>
+        <div class="cta-band__btns"><a href="contact.html" class="btn btn--navy">Start Your Project</a></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer"><div class="container"><div class="footer__grid"><div class="footer__brand"><img src="images/logo.png" alt="Menabuild" class="footer__logo" /><p>Professional Builders — Built for Florida. Built for You.</p></div><div class="footer__col"><h4>Pages</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="renovation.html">Renovation</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="reviews.html">Reviews</a></li><li><a href="contact.html">Contact</a></li></ul></div><div class="footer__col"><h4>Contact</h4><ul class="footer__contact"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>24608 SW 119th Place<br/>Princeton, FL 33032</li></ul></div></div><div class="footer__bottom"><p>© 2026 Menabuild Professional Builders. All Rights Reserved.</p></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
