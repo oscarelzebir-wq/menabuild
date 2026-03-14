@@ -182,7 +182,7 @@ ul { list-style: none; }
   height: 80px;
 }
 .nav__logo img {
-  height: 86px;
+  height: 44px;
   width: auto;
   /* White filter for visibility on dark backgrounds */
   filter: brightness(0) invert(1);
@@ -573,7 +573,7 @@ ul { list-style: none; }
   padding-bottom: 60px;
 }
 .footer__logo {
-  height: 86px;
+  height: 44px;
   width: auto;
   filter: brightness(0) invert(1);
   margin-bottom: 16px;
