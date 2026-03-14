@@ -182,7 +182,7 @@ ul { list-style: none; }
   height: 80px;
 }
 .nav__logo img {
-  height: 44px;
+  height: 88px;
   width: auto;
   /* White filter for visibility on dark backgrounds */
   filter: brightness(0) invert(1);
@@ -516,7 +516,7 @@ ul { list-style: none; }
 }
 .testimonial-card__avatar {
   width: 44px;
-  height: 44px;
+  height: 88px;
   background: var(--navy);
   color: var(--white);
   border-radius: 50%;
@@ -573,7 +573,7 @@ ul { list-style: none; }
   padding-bottom: 60px;
 }
 .footer__logo {
-  height: 44px;
+  height: 88px;
   width: auto;
   filter: brightness(0) invert(1);
   margin-bottom: 16px;
